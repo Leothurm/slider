@@ -27,6 +27,26 @@ header{
     transition: all ease 0.5s;
 
 }
+
+.slider-buttons{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #F1F1F1;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
 .slider-item{
     width: 100vw;
     height: inherit;
