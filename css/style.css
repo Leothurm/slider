@@ -9,11 +9,23 @@ header{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-color: #F1F1F1;
  
+}
+nav{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    
 }
 .cabecalho{
     height: 50px;
-    background-color: #FF0000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+
+    
 }
 
 .slider{
@@ -44,8 +56,9 @@ header{
     /* background-color: #F1F1F1; */
     overflow: hidden;
     cursor: pointer;
-    display: flex;
+    display: flex; 
     justify-content: center;
+
 }
 
 .slider-btn i{
@@ -55,9 +68,7 @@ header{
     font-size: 20px;
   
 }
-.slider-btn i:hover {
-      padding: 20px;
-}
+
 .slider-item{
     width: 100vw;
     height: inherit;

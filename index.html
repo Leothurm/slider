@@ -15,24 +15,37 @@
     />
   </head>
   <body>
-    <header>   
-        <div class="cabecalho">
-
+    <header>
+      <nav>
+        <div class="cabecalho"><p>PROJETO SLIDER</p> </div>
+      </nav>
+      <div class="slider">
+        <div class="slider-buttons">
+          <div class="slider-btn" onclick="goPrev()">
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>
+          <div class="slider-btn" onclick="goNext()">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
         </div>
-        <div class="slider" >
-            <div class="slider-buttons">
-                <div class="slider-btn" onclick="goPrev()"><i class="fa-solid fa-arrow-left"></i></div>
-                <div class="slider-btn" onclick="goNext()"><i class="fa-solid fa-arrow-right"></i></div>
-            </div>
-            <div class="slider-container">
-                <div class="slider-item" style="background-image: url(./img/img1.jpg)"></div>
-                <div class="slider-item" style="background-image: url(./img/img2.jpg)"></div>
-                <div class="slider-item" style="background-image: url(./img/img3.jpg)"></div>
-            </div>
+        <div class="slider-container">
+          <div
+            class="slider-item"
+            style="background-image: url(./img/img1.jpg)"
+          ></div>
+          <div
+            class="slider-item"
+            style="background-image: url(./img/img2.jpg)"
+          ></div>
+          <div
+            class="slider-item"
+            style="background-image: url(./img/img3.jpg)"
+          ></div>
         </div>
+      </div>
     </header>
     <main>
-      <section> <h1>resto do site</h1></section>
+      <section><h1>resto do site</h1></section>
     </main>
 
     <script src="./script.js"></script>
